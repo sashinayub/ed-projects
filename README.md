@@ -10,4 +10,6 @@ Select со всеми его возможностями…
 ТЗ
 спецификации
 
+https://github.com/sashinayub/ed-projects/blob/4bd2506801a3734d1ceba07a7ad2d2ec5393453f/python
+
 <img width="958" height="667" alt="image" src="https://github.com/user-attachments/assets/349a5060-7fa4-45f7-a649-b8141e1f20c9" />
