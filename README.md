@@ -10,3 +10,4 @@ Select со всеми его возможностями…
 ТЗ
 спецификации
 
+<img width="958" height="667" alt="image" src="https://github.com/user-attachments/assets/349a5060-7fa4-45f7-a649-b8141e1f20c9" />
