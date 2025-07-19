@@ -13,7 +13,7 @@
   <summary>Оглавление</summary>
   <ol>
     <li>
-      <a href="#about-the-project">О портфолио</a>
+      <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -35,7 +35,6 @@
 </details>
 
 
-
 <!-- О портфолио -->
 ## О портфолио
 
@@ -55,24 +54,6 @@
 * использование корпоративные информационные системы (КСЭД, SAP, ЦСУПД, Directum), ИС «Спарк» (Интерфакс), ЭТП ТЭК-Торг для ведения документации, мониторинга процессов, ведения закупок, формирования отчетности
 * сбор, анализ и структурирование информации для подготовки технических заданий, закупочной документации, отчетов и аналитических материалов
 * контроль за процедурой заключения, исполнения, расторжения договоров; участие в разработке предложений по повышению эффективности закупок; ведение базы данных документов и отчетов по закупочным процедурам с использованием 1С:Предприятие, ЕИС в сфере закупок, РТС-Тендер
-
-
-### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
