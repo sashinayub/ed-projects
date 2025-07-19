@@ -99,22 +99,28 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- Pandas, Matplotlib, PyMongo, чтение и запись данных, мат.статистика -->
 ## Pandas, PyMongo, чтение и запись данных, базовая математическая статистика
 
-- [x] работа в Google Colab с Pandas и библиотекой для визуализации данных Matplotlib, создание и объединение данных о температуре воздуха в различных городах в DataFrame, работа с файлами csv, xlsx, форматирование столбцов, даты, разделителей
+- [x] работа в Google Colab с **Pandas и библиотекой для визуализации данных Matplotlib**, создание и объединение данных о температуре воздуха в различных городах в DataFrame, работа с файлами csv, xlsx, форматирование столбцов, даты, разделителей
 <img width="624" height="538" alt="image" src="https://github.com/user-attachments/assets/0cb6d271-4b1f-464d-b76c-f3a0c43804c0" />
 
-- [x] с применением urllib.request были получены данные о погоде с сайта weatherapi.com в формате json, данные отформатированы, получен почасовой прогноз погоды, загружен в DataFrame и сохранен в формате csv
+- [x] в Jupiter Notebook **с применением urllib.request были получены данные о погоде с сайта weatherapi.com** в формате json, данные отформатированы, получен почасовой прогноз погоды, загружен в DataFrame и сохранен в формате csv
 
 <img width="624" height="332" alt="image" src="https://github.com/user-attachments/assets/d35ffb64-7149-4f02-a4d9-b44cfaeb0def" />
 
-- [x] с исользованием SQLAlchemy и psycopg2 из БД PostgreSQL загружены и сохранены в виде xlsx данные с аналитикой рейтинга фильмов
+- [x] с исользованием **SQLAlchemy и psycopg2** из БД PostgreSQL загружены и сохранены в виде xlsx данные с аналитикой рейтинга фильмов
 <img width="624" height="556" alt="image" src="https://github.com/user-attachments/assets/134f9909-4fa8-422d-80ef-047e0903ff4f" />
 
-- [x] c применением Pymongo проведена работа с коллекциями MongoDB: чтению, количество доступных коллекций и документов, преобразование списка документов в Pandas DataFrame, сохранение в xlsx
+- [x] c применением Pymongo проведена работа **с коллекциями MongoDB**: чтению, количество доступных коллекций и документов, преобразование списка документов в Pandas DataFrame, сохранение в xlsx
 <img width="624" height="416" alt="image" src="https://github.com/user-attachments/assets/599bee9c-10b8-4a9d-95ea-e37b0d39676f" />
 
-- [x] обновлению и удалению документов в коллекциях, а также управлять базой данных
+- [x] в рамках изучения базовой математической статистики для Data Scientist с использованием библиотек Pandas, Numpy, SciPy, Matplotlib, Seaborn проведен **анализ метрик данных сервиса по аренде велосипедов**: построены гистограммы распределения, найдены статистические показатели, сделаны выводы о наличии аномалий, построен доверительный интервал, создана корреляционная матрица и heatmap по метрикам, сделаны выводы о наличии связей
+
+<img width="624" height="572" alt="image" src="https://github.com/user-attachments/assets/2ec5b9e4-a03a-468d-8a8a-86588fb00004" />
+<img width="624" height="695" alt="image" src="https://github.com/user-attachments/assets/0b88fba9-f60c-4097-ae7b-ab21b4f8b719" />
+
+
+- [ ] 
 - [x] json
-- [x] Jupiter Notebook
+- [x] 
 - [x] Add Additional Templates w/ Examples
 - [x] Add "components" document to easily copy & paste sections of the readme
 - [x] Multi-language Support
