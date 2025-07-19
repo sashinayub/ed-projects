@@ -100,10 +100,19 @@ _Below is an example of how you can instruct your audience on installing and set
 ## Pandas, PyMongo, чтение и запись данных, базовая математическая статистика
 
 - [x] работа в Google Colab с Pandas и библиотекой для визуализации данных Matplotlib, создание и объединение данных о температуре воздуха в различных городах в DataFrame, работа с файлами csv, xlsx, форматирование столбцов, даты, разделителей
+<img width="624" height="538" alt="image" src="https://github.com/user-attachments/assets/0cb6d271-4b1f-464d-b76c-f3a0c43804c0" />
+
 - [x] с применением urllib.request были получены данные о погоде с сайта weatherapi.com в формате json, данные отформатированы, получен почасовой прогноз погоды, загружен в DataFrame и сохранен в формате csv
-- [x]  с исользованием SQLAlchemy и psycopg2 из БД PostgreSQL загружены и сохранены в виде xlsx данные с аналитикой рейтинга фильмов
+
+<img width="624" height="332" alt="image" src="https://github.com/user-attachments/assets/d35ffb64-7149-4f02-a4d9-b44cfaeb0def" />
+
+- [x] с исользованием SQLAlchemy и psycopg2 из БД PostgreSQL загружены и сохранены в виде xlsx данные с аналитикой рейтинга фильмов
+<img width="624" height="556" alt="image" src="https://github.com/user-attachments/assets/134f9909-4fa8-422d-80ef-047e0903ff4f" />
+
 - [x] c применением Pymongo проведена работа с коллекциями MongoDB: чтению, количество доступных коллекций и документов, преобразование списка документов в Pandas DataFrame, сохранение в xlsx
-- [x]   обновлению и удалению документов в коллекциях, а также управлять базой данных
+<img width="624" height="416" alt="image" src="https://github.com/user-attachments/assets/599bee9c-10b8-4a9d-95ea-e37b0d39676f" />
+
+- [x] обновлению и удалению документов в коллекциях, а также управлять базой данных
 - [x] json
 - [x] Jupiter Notebook
 - [x] Add Additional Templates w/ Examples
