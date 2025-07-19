@@ -34,7 +34,7 @@
 * анализ, оптимизация, моделирование бизнес-процессов, работа в BusinessStudio
 * создание диаграмм в нотациях CFFC, EPC, BPMN, UML, IDEF0, ER-диаграммы, User Story, Use Case в Miro, Draw.io, Figma, BPMN.io, BusinessStudio
 * работа с библиотеками NumPy, Pandas, PyMongo
-* SQL (начальный уровень), работа в Anaconda (Jupiter Notebook), Google Colab, MS SGL, MySQL, Postgre
+* базы данных и SQL (начальный уровень), работа в Anaconda (Jupiter Notebook), Google Colab, MS SGL, MySQL, PostgreSQL
 * API
 * подготовка данных и создание дашбордов в PowerBI 
 
