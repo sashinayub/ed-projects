@@ -123,10 +123,6 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 4. Float, round, math
 5. Open a Pull Request
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-
 * _Задача "Среднее на отрезке": напишите программу, которая считывает с клавиатуры три числа a, b и c, считает и выводит на консоль среднее арифметическое всех чисел из отрезка [a; b], кратных числу c._
  ```sh
 a = int(input('Введите первое число (a): '))
@@ -192,18 +188,14 @@ number = input('Какую цифру ищем? ')
 letter = input('Какую букву ищем? ')
 count_letters(text, number, letter)
  ```
-Ссылка на папку с диаграммами ["Python"](https://github.com/sashinayub/ed-projects/tree/bc53e6a761a129aac003ed7d2c635237665eb1c0/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D0%B2%20(%D1%80%D0%B0%D0%B7%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B5%20%D0%BD%D0%BE%D1%82%D0%B0%D1%86%D0%B8%D0%B8))
+Ссылка на папку с работами ["Python"](https://github.com/sashinayub/ed-projects/tree/47021c3ff6ed45bfe98d08142ad12bb21718d8b4/Python)
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Сашина Юлия - [@IuliiaSash](https://twitter.com/@IuliiaSash) - sashinayub@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+Дополнительная ссылка на портфолио на GoogleDisc: [портфолио](https://drive.google.com/drive/u/0/folders/1L3FnoYx98lNab2a6SJjh6Fnkux_SrnDB)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
