@@ -27,7 +27,7 @@
 <!-- О портфолио -->
 ## О портфолио
 
-У меня нет коммерческого опыта в бизнес-аналитике/системной аналитике, но есть опыт решения задач, приближенных к задачам реального бизнеса.
+В портфолио нет проектов из коммерческого опыта в бизнес-аналитике/системной аналитике, но есть работы решения задач, приближенных к задачам реального бизнеса.
 
 Выполнены практические работы по основным модулям:
 * сбор, документирование и анализ требований
@@ -41,17 +41,12 @@
 * API
 * подготовка данных и создание дашбордов в PowerBI 
 
-Предыдущий опыт работы юристом и специалистом по закупкам усиливает мои навыки, поскольку в сою компетенцию входили: 
-* экспертиза пакета закупочной документации, организация и контроль закупочных процедур, взаимодействие с различными подразделениями для уточнения условий закупки, своевременности и эффективности ее проведения, соблюдения требований законодательства и норм Регламентов Компании и Общества
-* использование корпоративные информационные системы (КСЭД, SAP, ЦСУПД, Directum), ИС «Спарк» (Интерфакс), ЭТП ТЭК-Торг для ведения документации, мониторинга процессов, ведения закупок, формирования отчетности
-* сбор, анализ и структурирование информации для подготовки технических заданий, закупочной документации, отчетов и аналитических материалов
-* контроль за процедурой заключения, исполнения, расторжения договоров; участие в разработке предложений по повышению эффективности закупок; ведение базы данных документов и отчетов по закупочным процедурам с использованием 1С:Предприятие, ЕИС в сфере закупок, РТС-Тендер
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple example **steps**.
 
 ### Prerequisites
 
@@ -118,19 +113,86 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 
 
-<!-- CONTRIBUTING -->
-## Contributing
+<!-- Python -->
+## Python
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+Уровень опыта работы с Python включает знание основ синтаксиса, работу с переменными и типами данных, использование условных операторов и циклов. Также освоены функции, работа с коллекциями и базовые модули для обработки файлов и исключений. 
+1. Функции
+2. Возврат значений из функции return, алгоритмы с заданной точностью для расчёта
+3. Вложенные циклы
+4. Float, round, math
 5. Open a Pull Request
+
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+
+* _Задача "Среднее на отрезке": напишите программу, которая считывает с клавиатуры три числа a, b и c, считает и выводит на консоль среднее арифметическое всех чисел из отрезка [a; b], кратных числу c._
+ ```sh
+a = int(input('Введите первое число (a): '))
+b = int(input('Введите второе число (b): '))
+c = int(input('Введите третье число (c): '))
+summ = 0
+count = 0
+for number in range(a + 1, b):
+  if number % c == 0:
+    summ += number
+    count += 1
+if summ == 0:
+  print('Чисел из отрезка [a; b], кратных числу c, не найдено. Запустите программу снова.')
+else:
+  print('Среднее арифметическое всех чисел из отрезка а:b: ', summ/count)
+ ```
+
+* _Задача "Сумма ряда"
+Дано натуральное число N. Напишите программу для вычисления суммы N элементов последовательности по формуле (−1)n∙12n , где n — это порядковый номер элемента (расчёт начинается с нуля)._
+ ```sh
+n = int(input('Введите №: '))
+summ = 0
+for number in range(0, n):
+  elem = ((-1)**number) * ((1/2)**number)
+  summ += elem
+print('Ответ:', summ)
+ ```
+
+* _Задача "Число наоборот": пользователь вводит два числа: N и K. Напишите программу, которая заменяет каждое число на число, которое получается из исходного записью его цифр в обратном порядке, затем складывает их, снова переворачивает и выводит ответ на экран._
+ ```sh
+def turn_over(num):
+  count = 0
+  while num > 0:
+    count = count * 10 + num % 10
+    num = num // 10
+  return count
+n = int(input('Введите первое число: ')) 
+k = int(input('Введите второе число: ')) 
+summ = turn_over(n) + turn_over(k)
+print('Первое число наоборот:', turn_over(n))
+print('Второе число наоборот:', turn_over(k)) 
+print('Сумма:', summ) 
+print('Сумма наоборот:', turn_over(summ))
+ ```
+
+* _Задача "Текстовый редактор": напишите код, который считает, сколько раз в тексте встречается любая выбранная буква или цифра. Напишите функцию count_letters(), которая принимает на вход текст и подсчитывает, какое в нём количество цифр K и букв N._ 
+ ```sh
+text = input('Введите текст: ')
+
+def count_letters(text, number, letter):
+  count_number = 0
+  count_letter = 0
+
+  for i in text:
+    if i == number:
+      count_number += 1
+    elif i == letter:
+      count_letter += 1
+  print('Количество цифр ', number, ':', count_number)
+  print('Количество букв ', letter, ':', count_letter)
+
+number = input('Какую цифру ищем? ')
+letter = input('Какую букву ищем? ')
+count_letters(text, number, letter)
+ ```
+Ссылка на папку с диаграммами ["Python"](https://github.com/sashinayub/ed-projects/tree/bc53e6a761a129aac003ed7d2c635237665eb1c0/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D0%B2%20(%D1%80%D0%B0%D0%B7%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B5%20%D0%BD%D0%BE%D1%82%D0%B0%D1%86%D0%B8%D0%B8))
 
 
 <!-- CONTACT -->
