@@ -118,15 +118,38 @@ _Below is an example of how you can instruct your audience on installing and set
 <img width="624" height="572" alt="image" src="https://github.com/user-attachments/assets/2ec5b9e4-a03a-468d-8a8a-86588fb00004" />
 <img width="624" height="695" alt="image" src="https://github.com/user-attachments/assets/0b88fba9-f60c-4097-ae7b-ab21b4f8b719" />
 
+- [x] проведен **анализ эффективности маркетинговой акции для клиентов онлайн-игры** через сравнение метрик тестовой и контрольной группы игроков на 3 платформах с помощью доверительных интервалов от средних значений с точностью 95%. Исходные данные содержатся в 5 таблицах в формате csv. Были использованы библиотеки Pandas, Numpy, Matplotlib.pyplot, Seaborn, Scipy. Предварительно из данных были удалены данные по читерам (игроки, которые с помощью взлома игры начисляют себе большие объёмы внутриигровой валюты). После всех вычислений в Power BI были построены графики сравнения метрик по дням и матрица с ARPU по группам и платформам. Сделаны выводы, стоит ли проводить маркетинговую акцию в дальнейшем.
+ 
+* _Код для создания DataFrame cheaters и удаления выявленных читеров:_
+ ```sh
+df_chiters = pd.read_csv('Cheaters.csv')
+df_chiters = df_chiters.loc[(df_chiters['cheaters'] == 1)] #фильтруем по 1
+list_of_chiters = df_chiters['user_id'].tolist() #создадим список с id
+print(len(set(list_of_chiters))) #в списке 353 выявленных читера
+ ```
 
-- [ ] 
-- [x] json
-- [x] 
-- [x] Add Additional Templates w/ Examples
-- [x] Add "components" document to easily copy & paste sections of the readme
-- [x] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish 
+* _Код для построения графиков (на примере платформы PC):_
+ ```sh
+plt.hist(df_pc_test['cash'], bins=40, alpha=0.3, label='test') 
+plt.hist(df_pc_control['cash'], bins=40, alpha=0.3, label='control')
+
+plt.axvline(ci_test[0], color='blue', linewidth=1) 
+plt.axvline(ci_test[1], color='blue', linewidth=1)
+plt.axvline(ci_control[0], color='orange', linewidth=1)
+plt.axvline(ci_control[1], color='orange', linewidth=1)
+
+plt.title('Сравнение cash в тестовой и контрольной группах пользователей PC')
+plt.ylabel('Frequency') 
+plt.xlabel('Cash')
+plt.legend(loc='upper right') 
+plt.savefig('pc.png')
+plt.show()
+ ```
+<img width="741" height="523" alt="image" src="https://github.com/user-attachments/assets/d5497678-4c2e-4a79-bd5e-7e936ebb3224" />
+
+<img width="624" height="170" alt="image" src="https://github.com/user-attachments/assets/3f1e26d8-f937-4cb0-b382-c14028d9b09f" />
+
+<img width="624" height="171" alt="image" src="https://github.com/user-attachments/assets/4a614c59-0fd1-4a23-80b3-da76267461d0" />
 
 Подробнее в ["Pandas, PyMongo, чтение и запись данных, мат.статистика, PowerBI"](https://github.com/sashinayub/ed-projects/tree/1fafda1685315d366234babb5c6d2f96fffdaf9b/Pandas%2C%20PyMongo%2C%20%D1%87%D1%82%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%2C%20%D0%BC%D0%B0%D1%82.%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0%2C%20PowerBI) 
 
