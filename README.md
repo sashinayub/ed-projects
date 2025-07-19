@@ -39,18 +39,25 @@
 <!-- О портфолио -->
 ## О портфолио
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+У меня нет коммерческого опыта в бизнес-аналитике/системной аналитике, но есть опыт решения задач, приближенных к задачам реального бизнеса.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+Выполнены практические работы по основным модулям:
+* сбор, документирование и анализ требований
+* анализ, оптимизация, моделирование бизнес-процессов, работа в BusinessStudio
+* создание диаграмм в нотациях CFFC, EPC, BPMN, UML, IDEF0, ER-диаграммы, User Story, Use Case в Miro, Draw.io, Figma, BPMN.io, BusinessStudio
+* работа с библиотеками NumPy, Pandas, PyMongo
+* SQL (начальный уровень), работа в Anaconda (Jupiter Notebook), Google Colab, MS SGL, MySQL, Postgre :smile:
+* API
+* подготовка данных и создание дашбордов в PowerBI 
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+Предыдущий опыт работы юристом и специалистом по закупкам усиливает мои навыки, поскольку в сою компетенцию входили: 
+* экспертиза пакета закупочной документации, организация и контроль закупочных процедур, взаимодействие с различными подразделениями для уточнения условий закупки, своевременности и эффективности ее проведения, соблюдения требований законодательства и норм Регламентов Компании и Общества
+* использование корпоративные информационные системы (КСЭД, SAP, ЦСУПД, Directum), ИС «Спарк» (Интерфакс), ЭТП ТЭК-Торг для ведения документации, мониторинга процессов, ведения закупок, формирования отчетности
+* сбор, анализ и структурирование информации для подготовки технических заданий, закупочной документации, отчетов и аналитических материалов
+* контроль за процедурой заключения, исполнения, расторжения договоров; участие в разработке предложений по повышению эффективности закупок; ведение базы данных документов и отчетов по закупочным процедурам с использованием 1С:Предприятие, ЕИС в сфере закупок, РТС-Тендер
 
-Use the `BLANK_README.md` to get started.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">вверх</a>)</p>
 
 
 
