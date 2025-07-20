@@ -98,7 +98,7 @@ _Below is an example of how you can instruct your audience on installing and set
 Больше диаграмм в ["Диаграммы бизнес-процессов (различные нотации)"](https://github.com/sashinayub/ed-projects/tree/bc53e6a761a129aac003ed7d2c635237665eb1c0/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D0%B2%20(%D1%80%D0%B0%D0%B7%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B5%20%D0%BD%D0%BE%D1%82%D0%B0%D1%86%D0%B8%D0%B8))
 
 <!-- Pandas, PyMongo, чтение и запись данных, мат.статистика -->
-## Pandas, PyMongo, чтение и запись данных, базовая математическая статистика
+## Pandas, PyMongo, Numpy и другие библиотеки, чтение и запись данных, базовая математическая статистика
 
 - [x] работа в Google Colab с **Pandas и библиотекой для визуализации данных Matplotlib**, создание и объединение данных о температуре воздуха в различных городах в DataFrame, работа с файлами csv, xlsx, форматирование столбцов, даты, разделителей
 <img width="624" height="538" alt="image" src="https://github.com/user-attachments/assets/0cb6d271-4b1f-464d-b76c-f3a0c43804c0" />
@@ -110,7 +110,7 @@ _Below is an example of how you can instruct your audience on installing and set
 - [x] с исользованием **SQLAlchemy и psycopg2** из БД PostgreSQL загружены и сохранены в виде xlsx данные с аналитикой рейтинга фильмов
 <img width="624" height="556" alt="image" src="https://github.com/user-attachments/assets/134f9909-4fa8-422d-80ef-047e0903ff4f" />
 
-- [x] c применением Pymongo проведена работа **с коллекциями MongoDB**: чтению, количество доступных коллекций и документов, преобразование списка документов в Pandas DataFrame, сохранение в xlsx
+- [x] c применением Pymongo проведена работа **с коллекциями MongoDB**: чтение, подчсет количества доступных коллекций и документов, преобразование списка документов в Pandas DataFrame, сохранение в xlsx
 <img width="624" height="416" alt="image" src="https://github.com/user-attachments/assets/599bee9c-10b8-4a9d-95ea-e37b0d39676f" />
 
 - [x] в рамках изучения базовой математической статистики для Data Scientist с использованием библиотек Pandas, Numpy, SciPy, Matplotlib, Seaborn проведен **анализ метрик данных сервиса по аренде велосипедов**: построены гистограммы распределения, найдены статистические показатели, сделаны выводы о наличии аномалий, построен доверительный интервал, создана корреляционная матрица и heatmap по метрикам, сделаны выводы о наличии связей
