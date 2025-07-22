@@ -32,13 +32,13 @@
 Выполнены практические работы по основным модулям:
 * сбор, документирование и анализ требований
 * анализ, оптимизация, моделирование бизнес-процессов, работа в BusinessStudio
-* создание диаграмм в нотациях CFFC, EPC, BPMN, UML, IDEF0
-* User Story, Use Case, ER-диаграммы
+* создание диаграмм в нотациях CFFC, EPC, BPMN, IDEF0 для описания бизнес-процессов
+* UML, User Story, Use Case, ER-диаграммы для описания ПО
 * работа с инструментами Miro, Draw.io, Figma, BPMN.io, BusinessStudio
 * работа с библиотеками Pandas, NumPy, SciPy, Matplotlib, PyMongo, SQLAlchemy, Seaborn
 * операции с файлами csv, xlsx, коллекциями MongoDB, DataFrame
 * базы данных и SQL (начальный уровень)
-* работа в Anaconda (Jupiter Notebook), Google Colab, MS SGL, MySQL, PostgreSQL
+* работа в Anaconda (Jupiter Notebook), Google Colab, MS SQL, MySQL, PostgreSQL
 * API
 * подготовка данных и создание дашбордов в PowerBI 
 
@@ -85,7 +85,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 
 <!-- Создание диаграмм в нотациях CFFC, EPC, BPMN, UML, IDEF0 -->
-## Создание диаграмм в нотациях CFFC, EPC, BPMN, UML, IDEF0
+## Создание диаграмм в нотациях CFFC, EPC, BPMN, IDEF0 для описания бизнес-процессов
 
 В зависимости от поставленной задачи исследования бизнес-процесса были составлены диаграммы в нотациях CFFC, EPC, BPMN, IDEF0. В ряде диаграмм представлены модели бизнес-процессов AS IS и далее они изменены в учетом целей оптимизации бизнес процесса - модель TO BE. Эти модели отражают бизнес-процессы, системы и архитектурные решения, обеспечивая их визуализацию и анализ. Каждая диаграмма выполнена с учетом специфики нотации. Использовались инструменты визуализации Miro, Draw.io, Figma, BPMN.io, BusinessStudio.
 <img width="1220" height="588" alt="image" src="https://github.com/user-attachments/assets/5a54e7f5-213b-4718-8285-57548a03d153" />
