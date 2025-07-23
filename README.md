@@ -33,7 +33,7 @@
 * сбор, документирование и анализ требований
 * анализ, оптимизация, моделирование бизнес-процессов, работа в BusinessStudio
 * создание диаграмм в нотациях CFFC, EPC, BPMN, IDEF0 для описания бизнес-процессов
-* UML, User Story, Use Case, ER-диаграммы для описания ПО
+* диаграммы UML, User Story, Use Case, ER-диаграммы для описания ПО
 * работа с инструментами Miro, Draw.io, Figma, BPMN.io, BusinessStudio
 * работа с библиотеками Pandas, NumPy, SciPy, Matplotlib, PyMongo, SQLAlchemy, Seaborn
 * операции с файлами csv, xlsx, коллекциями MongoDB, DataFrame
@@ -44,7 +44,7 @@
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Сбор, документирование и анализ требований
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example **steps**.
@@ -96,6 +96,23 @@ _Below is an example of how you can instruct your audience on installing and set
 
 
 Больше диаграмм в ["Диаграммы бизнес-процессов (различные нотации)"](https://github.com/sashinayub/ed-projects/tree/bc53e6a761a129aac003ed7d2c635237665eb1c0/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D0%B2%20(%D1%80%D0%B0%D0%B7%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B5%20%D0%BD%D0%BE%D1%82%D0%B0%D1%86%D0%B8%D0%B8))
+
+<!-- Диаграммы UML, User Story, Use Case, ER-диаграммы для описания ПО -->
+## Диаграммы UML, User Story, Use Case, ER-диаграммы для описания ПО
+
+В зависимости от поставленной задачи исследования бизнес-процесса были составлены диаграммы в нотациях CFFC, EPC, BPMN, IDEF0. В ряде диаграмм представлены модели бизнес-процессов AS IS и далее они изменены в учетом целей оптимизации бизнес процесса - модель TO BE. Эти модели отражают бизнес-процессы, системы и архитектурные решения, обеспечивая их визуализацию и анализ. Каждая диаграмма выполнена с учетом специфики нотации. Использовались инструменты визуализации Miro, Draw.io, Figma, BPMN.io, BusinessStudio.
+ - [*] Sequence Diagram в PlantUML
+<img width="624" height="538" alt="image" src="https://github.com/user-attachments/assets/0cb6d271-4b1f-464d-b76c-f3a0c43804c0" />
+
+<img width="1220" height="588" alt="image" src="https://github.com/user-attachments/assets/5a54e7f5-213b-4718-8285-57548a03d153" />
+<img width="624" height="606" alt="image" src="https://github.com/user-attachments/assets/6d1c6c0e-cab4-4366-b8da-e00d6bd3c301" />
+<img width="1199" height="854" alt="image" src="https://github.com/user-attachments/assets/a2c460e6-49b9-41b6-983b-ce8c4debf3d9" />
+
+
+
+
+Больше диаграмм в ["Диаграммы бизнес-процессов (различные нотации)"](https://github.com/sashinayub/ed-projects/tree/bc53e6a761a129aac003ed7d2c635237665eb1c0/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D0%B2%20(%D1%80%D0%B0%D0%B7%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B5%20%D0%BD%D0%BE%D1%82%D0%B0%D1%86%D0%B8%D0%B8))
+
 
 <!-- Pandas, PyMongo, чтение и запись данных, мат.статистика -->
 ## Pandas, PyMongo, Numpy и другие библиотеки, чтение и запись данных, базовая математическая статистика
