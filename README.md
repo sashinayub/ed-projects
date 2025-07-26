@@ -14,11 +14,13 @@
   <ol>
     <li><a href="#about-the-project">О портфолио</a></li>
     <li><a href="#getting-started">Getting Started</a></li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#usage">Создание диаграмм в нотациях CFFC, EPC, BPMN, IDEF0 для описания бизнес-процессов</a></li>
+    <li><a href="#roadmap">Диаграммы UML, User Story, Use Case, ER-диаграммы для описания ПО</a></li>
+    <li><a href="#contributing">Pandas, PyMongo, Numpy и другие библиотеки, чтение и запись данных, базовая математическая статистика</a></li>
+    <li><a href="#license">Python</a></li>
+    <li><a href="#license">SQL и базы данны</a></li>
+    <li><a href="#license">Визуализация и аналитика с помощью BI-систем</a></li>
+    <li><a href="#contact">Контакты</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -100,7 +102,9 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- Диаграммы UML, User Story, Use Case, ER-диаграммы для описания ПО -->
 ## Диаграммы UML, User Story, Use Case, ER-диаграммы для описания ПО
 
-В зависимости от поставленной задачи исследования бизнес-процесса были составлены диаграммы в нотациях CFFC, EPC, BPMN, IDEF0. В ряде диаграмм представлены модели бизнес-процессов AS IS и далее они изменены в учетом целей оптимизации бизнес процесса - модель TO BE. Эти модели отражают бизнес-процессы, системы и архитектурные решения, обеспечивая их визуализацию и анализ. Каждая диаграмма выполнена с учетом специфики нотации. Использовались инструменты PlantUML, Miro, Draw.io, Figma.
+ ТЗ, Спецификации
+ 
+ При составлении диаграмм спользовались инструменты PlantUML, Miro, Draw.io, Figma. Кроме папки "Диаграммы UML, User Story, Use Case, ER-диаграммы для описания ПО" диаграммы и описания содержатся в размещенных в основной папке Тестовых заданиях.
  - [x] Sequence Diagram в PlantUML
 <img width="1631" height="1022" alt="Sequence Diagram  Система обработки заказа" src="https://github.com/user-attachments/assets/b46a8615-1799-43b8-a8d0-624df39a5dd7" />
 
@@ -242,57 +246,8 @@ count_letters(text, number, letter)
  ```
 Ссылка на папку с работами ["Python"](https://github.com/sashinayub/ed-projects/tree/47021c3ff6ed45bfe98d08142ad12bb21718d8b4/Python)
 
-<!-- CONTACT -->
-## Contact
-
-Сашина Юлия - [@IuliiaSash](https://twitter.com/@IuliiaSash) - sashinayub@gmail.com
-
-Дополнительная ссылка на портфолио на GoogleDisc: [портфолио](https://drive.google.com/drive/u/0/folders/1L3FnoYx98lNab2a6SJjh6Fnkux_SrnDB)
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- SQL и базы данных -->
+## SQL и базы данны
 
 решения задач, приближенных к задачам реального бизнеса:
 • написание различных SQL-запросов (MS SQL, MySQL, PosgreSQL) для извлечения необходимых данных для аналитики:
@@ -300,8 +255,49 @@ Select со всеми его возможностями…
 Объединение данных из различных таблиц, в т.ч. Join
 Применение оконных функций при количества…
 Построение таблицы продаж товаров
-Решение бизнес-кейсов на языке Python
-Аналитика активности пользователей платформы
-Создала дашборд в PowerBI (подключила базу данных ____ к PowerBI, написала SQL—запросы для построения визуализаций, собрала дашборд «Анализ…, сформулировала гипотезы и провела их тестирование, результаты тестирования»
-ТЗ
-спецификации
+Уровень опыта работы с Python включает знание основ синтаксиса, работу с переменными и типами данных, использование условных операторов и циклов. Также освоены функции, работа с коллекциями и базовые модули для обработки файлов и исключений. 
+1. Функции
+2. Возврат значений из функции return, алгоритмы с заданной точностью для расчёта
+3. Вложенные циклы
+4. Float, round, math
+5. Open a Pull Request
+
+* _Задача "Среднее на отрезке": напишите программу, которая считывает с клавиатуры три числа a, b и c, считает и выводит на консоль среднее арифметическое всех чисел из отрезка [a; b], кратных числу c._
+ ```sh
+a = int(input('Введите первое число (a): '))
+b = int(input('Введите второе число (b): '))
+c = int(input('Введите третье число (c): '))
+summ = 0
+count = 0
+for number in range(a + 1, b):
+  if number % c == 0:
+    summ += number
+    count += 1
+if summ == 0:
+  print('Чисел из отрезка [a; b], кратных числу c, не найдено. Запустите программу снова.')
+else:
+  print('Среднее арифметическое всех чисел из отрезка а:b: ', summ/count)
+ ```
+Ссылка на папку с работами ["Python"](https://github.com/sashinayub/ed-projects/tree/47021c3ff6ed45bfe98d08142ad12bb21718d8b4/Python)
+
+
+
+<!-- Визуализация и аналитика с помощью BI-систем -->
+## Визуализация и аналитика с помощью BI-систем
+
+ Создала дашборд в PowerBI (подключила базу данных ____ к PowerBI, написала SQL—запросы для построения визуализаций, собрала дашборд 
+ При составлении диаграмм спользовались инструменты PlantUML, Miro, Draw.io, Figma. Кроме папки "Диаграммы UML, User Story, Use Case, ER-диаграммы для описания ПО" диаграммы и описания содержатся в размещенных в основной папке Тестовых заданиях.
+ - [x] Sequence Diagram в PlantUML
+<img width="1631" height="1022" alt="Sequence Diagram  Система обработки заказа" src="https://github.com/user-attachments/assets/b46a8615-1799-43b8-a8d0-624df39a5dd7" />
+
+Больше диаграмм в ["Диаграммы UML, User Story, Use Case, ER-диаграммы для описания ПО"](https://github.com/sashinayub/ed-projects/tree/a40e84b5a8c71d72cecf078a699d268d3ee926aa/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20UML%2C%20User%20Story%2C%20Use%20Case%2C%20ER-%D0%B4%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%9F%D0%9E))
+
+
+<!-- Контакты -->
+## Контакты
+
+Сашина Юлия - [@IuliiaSash](https://twitter.com/@IuliiaSash) - sashinayub@gmail.com
+
+Дополнительная ссылка на портфолио на GoogleDisc: [портфолио](https://drive.google.com/drive/u/0/folders/1L3FnoYx98lNab2a6SJjh6Fnkux_SrnDB)
+
+
