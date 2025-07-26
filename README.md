@@ -109,7 +109,7 @@ _Below is an example of how you can instruct your audience on installing and set
 <img width="1631" height="1022" alt="Sequence Diagram  Система обработки заказа" src="https://github.com/user-attachments/assets/b46a8615-1799-43b8-a8d0-624df39a5dd7" />
 
  - [x] ERD "Система учета продаж" в Draw.io
-
+<img width="749" height="449" alt="ERD  Система учета продаж drawio" src="https://github.com/user-attachments/assets/dcaba03c-327f-4dd3-bf5c-11df2cc2558e" />
 
 
 Больше диаграмм в ["Диаграммы UML, User Story, Use Case, ER-диаграммы для описания ПО"](https://github.com/sashinayub/ed-projects/tree/a40e84b5a8c71d72cecf078a699d268d3ee926aa/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20UML%2C%20User%20Story%2C%20Use%20Case%2C%20ER-%D0%B4%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%9F%D0%9E))
