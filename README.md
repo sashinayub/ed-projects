@@ -15,7 +15,7 @@
     <li><a href="#about-the-project">О портфолио</a></li>
     <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#usage">Создание диаграмм в нотациях CFFC, EPC, BPMN, IDEF0 для описания бизнес-процессов</a></li>
-    <li><a href="#roadmap">Диаграммы UML, User Story, Use Case, ER-диаграммы для описания ПО</a></li>
+    <li><a href="#roadmap">Диаграммы UML, User Story, Use Case, ERD для описания ПО</a></li>
     <li><a href="#contributing">Pandas, PyMongo, Numpy и другие библиотеки, чтение и запись данных, базовая математическая статистика</a></li>
     <li><a href="#license">Python</a></li>
     <li><a href="#license">SQL и базы данных</a></li>
@@ -99,16 +99,16 @@ _Below is an example of how you can instruct your audience on installing and set
 
 Больше диаграмм в ["Диаграммы бизнес-процессов (различные нотации)"](https://github.com/sashinayub/ed-projects/tree/bc53e6a761a129aac003ed7d2c635237665eb1c0/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D0%B2%20(%D1%80%D0%B0%D0%B7%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B5%20%D0%BD%D0%BE%D1%82%D0%B0%D1%86%D0%B8%D0%B8))
 
-<!-- Диаграммы UML, User Story, Use Case, ER-диаграммы для описания ПО -->
-## Диаграммы UML, User Story, Use Case, ER-диаграммы для описания ПО
+<!-- Диаграммы UML, User Story, Use Case, ERD для описания ПО -->
+## Диаграммы UML, User Story, Use Case, ERD для описания ПО
 
  ТЗ, Спецификации
  
- При составлении диаграмм спользовались инструменты PlantUML, Miro, Draw.io, Figma. Кроме папки "Диаграммы UML, User Story, Use Case, ER-диаграммы для описания ПО" диаграммы и описания содержатся в размещенных в основной папке Тестовых заданиях.
- - [x] Sequence Diagram "Система обработки заказа" в PlantUML
+ При составлении диаграмм спользовались инструменты PlantUML, Miro, Draw.io, Figma. Кроме папки "Диаграммы UML, User Story, Use Case, ERD для описания ПО" диаграммы и описания содержатся в размещенных в основной папке Тестовых заданиях.
+ - [x] Sequence Diagrams в PlantUML:
 <img width="1631" height="1022" alt="Sequence Diagram  Система обработки заказа" src="https://github.com/user-attachments/assets/b46a8615-1799-43b8-a8d0-624df39a5dd7" />
 
- - [x] ERD "Система учета продаж" в Draw.io
+ - [x] ERD:
 <img width="749" height="449" alt="ERD  Система учета продаж drawio" src="https://github.com/user-attachments/assets/dcaba03c-327f-4dd3-bf5c-11df2cc2558e" />
 
 
