@@ -18,7 +18,7 @@
     <li><a href="#roadmap">Диаграммы UML, User Story, Use Case, ER-диаграммы для описания ПО</a></li>
     <li><a href="#contributing">Pandas, PyMongo, Numpy и другие библиотеки, чтение и запись данных, базовая математическая статистика</a></li>
     <li><a href="#license">Python</a></li>
-    <li><a href="#license">SQL и базы данны</a></li>
+    <li><a href="#license">SQL и базы данных</a></li>
     <li><a href="#license">Визуализация и аналитика с помощью BI-систем</a></li>
     <li><a href="#contact">Контакты</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -247,7 +247,7 @@ count_letters(text, number, letter)
 Ссылка на папку с работами ["Python"](https://github.com/sashinayub/ed-projects/tree/47021c3ff6ed45bfe98d08142ad12bb21718d8b4/Python)
 
 <!-- SQL и базы данных -->
-## SQL и базы данны
+## SQL и базы данных
 
 решения задач, приближенных к задачам реального бизнеса:
 • написание различных SQL-запросов (MS SQL, MySQL, PosgreSQL) для извлечения необходимых данных для аналитики:
