@@ -272,24 +272,25 @@ Select со всеми его возможностями…
 4. Float, round, math
 5. Open a Pull Request
 
-* _Задача "Среднее на отрезке": напишите программу, которая считывает с клавиатуры три числа a, b и c, считает и выводит на консоль среднее арифметическое всех чисел из отрезка [a; b], кратных числу c._
+* _Задача: для каждого пользователя нужно найти наименование и цену самого дорогого товара в его первой транзакции.Исходные данные:
+Таблица с покупками (df_orders): user_id, transaction_datetime, item_id, order_id).
+Табличка товаров (df_items): item_id, brand, name, price)._
  ```sh
-a = int(input('Введите первое число (a): '))
-b = int(input('Введите второе число (b): '))
-c = int(input('Введите третье число (c): '))
-summ = 0
-count = 0
-for number in range(a + 1, b):
-  if number % c == 0:
-    summ += number
-    count += 1
-if summ == 0:
-  print('Чисел из отрезка [a; b], кратных числу c, не найдено. Запустите программу снова.')
-else:
-  print('Среднее арифметическое всех чисел из отрезка а:b: ', summ/count)
+select user_id,name,price
+from
+(
+select user_id,order_id,transaction_datetime,price,name,item_id,number_bought,
+      row_number() OVER (partition by user_id order by price desc) as most_expensive
+from(
+select user_id,order_id,transaction_datetime, price,name, di.item_id,
+       dense_rank() OVER (PARTITION BY user_id order by transaction_datetime ) as number_bought
+from df_orders do
+left join df_items  di on di.item_id = do.item_id 
+) tt
+where number_bought=1 
+)
+where most_expensive=1
  ```
-Ссылка на папку с работами ["Python"](https://github.com/sashinayub/ed-projects/tree/47021c3ff6ed45bfe98d08142ad12bb21718d8b4/Python)
-
 
 
 <!-- Визуализация и аналитика с помощью BI-систем -->
