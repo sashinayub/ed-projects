@@ -3,7 +3,7 @@
   <h3 align="center">Портфолио</h3>
 
   <p align="center">
-        <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+        <a href="https://github.com/othneildrew/Best-README-Template"><strong>Ссылка на резюме на HeadHunter</strong></a>
     <br />
    
 
