@@ -36,11 +36,11 @@
 * анализ, оптимизация, моделирование бизнес-процессов, работа в BusinesStudio
 * создание диаграмм в нотациях CFFC, EPC, BPMN, IDEF0 для описания бизнес-процессов
 * диаграммы UML, User Story, Use Case, ER-диаграммы для описания ПО
-* работа с инструментами Miro, Draw.io, Figma, BPMN.io, BusinessStudio
+* работа с инструментами Miro, Draw.io, Figma, BPMN.io, Stormbpmn, BusinessStudio
 * работа с библиотеками Pandas, NumPy, SciPy, Matplotlib, PyMongo, SQLAlchemy, Seaborn
 * операции с файлами csv, xlsx, коллекциями MongoDB, DataFrame
 * базы данных и SQL (начальный уровень)
-* работа в Anaconda (Jupiter Notebook), Google Colab, MS SQL, MySQL, Postgres
+* работа в Anaconda (Jupiter Notebook), Google Colab, MS SQL, MySQL, PostgreSQL
 * API
 * подготовка данных и создание дашбордов в PowerBI 
 
@@ -263,7 +263,7 @@ count_letters(text, number, letter)
 ## SQL и базы данных
 
 решения задач, приближенных к задачам реального бизнеса:
-• написание различных SQL-запросов (MS SQL, MySQL, Posgres) для извлечения необходимых данных для аналитики:
+• написание различных SQL-запросов (MS SQL, MySQL, PostgreSQL) для извлечения необходимых данных для аналитики:
 Select со всеми его возможностями…
 Объединение данных из различных таблиц, в т.ч. Join
 Применение оконных функций при количества…
