@@ -246,7 +246,7 @@ count_letters(text, number, letter)
 <!-- Контакты -->
 ## Контакты
 
-Сашина Юлия - [@IuliiaSash](https://twitter.com/@IuliiaSash) - sashinayub@gmail.com
+Сашина Юлия - Telegram: [@IuliiaSash](https://t.me/IuliiaSash), email: sashinayub@gmail.com
 
 Дополнительная ссылка на портфолио на GoogleDisc: [портфолио](https://drive.google.com/drive/u/0/folders/1L3FnoYx98lNab2a6SJjh6Fnkux_SrnDB)
 
