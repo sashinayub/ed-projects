@@ -15,13 +15,12 @@
     <li><a href="#about-the-project">О портфолио</a></li>
     <li><a href="#getting-started">Сбор, документирование и анализ требований</a></li>
     <li><a href="#usage">Создание диаграмм в нотациях CFFC, EPC, BPMN, IDEF0 для описания бизнес-процессов</a></li>
-    <li><a href="#roadmap">Диаграммы для описания ПО, в т.ч. UML, User Story, ERD </a></li>
+    <li><a href="#roadmap">Диаграммы UML, ERD и другие диаграммы для описания ПО</a></li>
+    <li><a href="#license">SQL и базы данных</a></li>
     <li><a href="#contributing">Pandas, PyMongo, Numpy и другие библиотеки, чтение и запись данных, базовая математическая статистика</a></li>
     <li><a href="#license">Python</a></li>
-    <li><a href="#license">SQL и базы данных</a></li>
     <li><a href="#license">Визуализация и аналитика с помощью BI-систем</a></li>
     <li><a href="#contact">Контакты</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -29,70 +28,23 @@
 <!-- О портфолио -->
 ## О портфолио
 
-В портфолио содержатся работы решения задач, приближенных к задачам реального бизнеса в сфере бизнес-аналитики/системной аналитики. 
+В портфолио содержатся работы по бизнес-анализу/системному анализу, приближенные к задачам реального бизнеса в сфере бизнес-аналитики/системной аналитики. 
 
-Выполнены практические работы по основным модулям:
-* сбор, уточнение, структурирование, документирование и анализ требований
-* анализ, оптимизация, моделирование бизнес-процессов, работа в BusinesStudio
-* создание диаграмм в нотациях CFFC, EPC, BPMN, IDEF0 для описания бизнес-процессов
-* диаграммы UML, User Story, Use Case, ER-диаграммы для описания ПО
-* работа с инструментами Miro, Draw.io, Figma, BPMN.io, Stormbpmn, BusinessStudio
-* работа с библиотеками Pandas, NumPy, SciPy, Matplotlib, PyMongo, SQLAlchemy, Seaborn
-* операции с файлами csv, xlsx, коллекциями MongoDB, DataFrame
-* базы данных и SQL (начальный уровень)
-* работа в Anaconda (Jupiter Notebook), Google Colab, MS SQL, MySQL, PostgreSQL
-* API
-* подготовка данных и создание дашбордов в PowerBI 
-
-
-<!-- GETTING STARTED -->
+<!-- Сбор, документирование и анализ требований -->
 ## Сбор, документирование и анализ требований
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example **steps**.
+В данном разделе представлены кейсы, демонстрирующие мой опыт в сборе, документировании и анализе требований. Здесь отражены подходы к выявлению бизнес-потребностей, формализации требований и обеспечению их соответствия целям проекта для успешной реализации решений. 
 
-### Prerequisites
+_Ряд кейсов, содержащихся в данном разделе:_
+- [x] брифы интервью с заказчиком;
+- [x] описание функциональных требований в виде сценариев использования (Use Case) новой функциональности по бронированию отеля, функциональности «Скачать все дополнительные материалы курса» на обучающей платформе;
+<img width="783" height="748" alt="ФТ и НФТ  Кнопка «Скачать все допматериалы курса»" src="https://github.com/user-attachments/assets/4b433702-6d10-4fd4-8970-f12b2c70261f" />
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-   ```
- - [x] сценарии использования (Use Case):
-
-<img width="1631" height="1022" alt="Sequence Diagram  Система обработки заказа" src="https://github.com/user-attachments/assets/b46a8615-1799-43b8-a8d0-624df39a5dd7" />
-
-
-
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- [x] описание функциональных и нефункциональных требований в иных форматах;
+- [ ] User Story и критерии приемки;
+- [x] спецификации по результатам разработки требований.
 
 Ссылка на папку с работами ["Сбор, документирование и анализ требований"](https://github.com/sashinayub/ed-projects/tree/1de22be9880beacc3830450c55e86a777c45103d/%D0%A1%D0%B1%D0%BE%D1%80%2C%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B8%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9)
-
-
-
 
 
 <!-- Создание диаграмм в нотациях CFFC, EPC, BPMN, UML, IDEF0 -->
@@ -103,13 +55,10 @@ _Below is an example of how you can instruct your audience on installing and set
 <img width="624" height="606" alt="image" src="https://github.com/user-attachments/assets/6d1c6c0e-cab4-4366-b8da-e00d6bd3c301" />
 <img width="1199" height="854" alt="image" src="https://github.com/user-attachments/assets/a2c460e6-49b9-41b6-983b-ce8c4debf3d9" />
 
-
-
-
 Больше диаграмм в ["Диаграммы бизнес-процессов (различные нотации)"](https://github.com/sashinayub/ed-projects/tree/bc53e6a761a129aac003ed7d2c635237665eb1c0/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D0%B2%20(%D1%80%D0%B0%D0%B7%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B5%20%D0%BD%D0%BE%D1%82%D0%B0%D1%86%D0%B8%D0%B8))
 
-<!-- Диаграммы UML, User Story, Use Case, ERD для описания ПО -->
-## Диаграммы для описания ПО, в т.ч. UML, User Story, ERD
+<!-- Диаграммы UML, ERD и другие диаграммы для описания ПО -->
+## Диаграммы UML, ERD и другие диаграммы для описания ПО
 
   При составлении диаграмм спользовались инструменты PlantUML, Miro, Draw.io, Figma. Кроме папки "Диаграммы UML, User Story, Use Case, ERD для описания ПО" диаграммы и описания содержатся в размещенных в основной папке Тестовых заданиях.
  - [x] Sequence Diagrams:
@@ -121,7 +70,43 @@ _Below is an example of how you can instruct your audience on installing and set
  - [x] Use Case Diagram:
 <img width="1245" height="561" alt="Use Case Diagram  Бронирование тура" src="https://github.com/user-attachments/assets/a1537cec-5695-406a-9996-b4760c5b1140" />
 
-Больше диаграмм в ["Диаграммы для описания ПО, в т.ч. UML, User Story, ERD"](https://github.com/sashinayub/ed-projects/tree/a40e84b5a8c71d72cecf078a699d268d3ee926aa/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20UML%2C%20User%20Story%2C%20Use%20Case%2C%20ER-%D0%B4%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%9F%D0%9E))
+Больше диаграмм в ["Диаграммы UML, ERD и другие диаграммы для описания ПО"](https://github.com/sashinayub/ed-projects/tree/a40e84b5a8c71d72cecf078a699d268d3ee926aa/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20UML%2C%20User%20Story%2C%20Use%20Case%2C%20ER-%D0%B4%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%9F%D0%9E))
+
+<!-- SQL и базы данных -->
+## SQL и базы данных
+
+решения задач, приближенных к задачам реального бизнеса:
+• написание различных SQL-запросов (MS SQL, MySQL, PostgreSQL) для извлечения необходимых данных для аналитики:
+Select со всеми его возможностями…
+Объединение данных из различных таблиц, в т.ч. Join
+Применение оконных функций при количества…
+Построение таблицы продаж товаров
+Уровень опыта работы с Python включает знание основ синтаксиса, работу с переменными и типами данных, использование условных операторов и циклов. Также освоены функции, работа с коллекциями и базовые модули для обработки файлов и исключений. 
+1. Функции
+2. Возврат значений из функции return, алгоритмы с заданной точностью для расчёта
+3. Вложенные циклы
+4. Float, round, math
+5. Open a Pull Request
+
+* _Задача: для каждого пользователя нужно найти наименование и цену самого дорогого товара в его первой транзакции.Исходные данные:
+Таблица с покупками (df_orders): user_id, transaction_datetime, item_id, order_id).
+Табличка товаров (df_items): item_id, brand, name, price)._
+ ```sh
+select user_id,name,price
+from
+(
+select user_id,order_id,transaction_datetime,price,name,item_id,number_bought,
+      row_number() OVER (partition by user_id order by price desc) as most_expensive
+from(
+select user_id,order_id,transaction_datetime, price,name, di.item_id,
+       dense_rank() OVER (PARTITION BY user_id order by transaction_datetime ) as number_bought
+from df_orders do
+left join df_items  di on di.item_id = do.item_id 
+) tt
+where number_bought=1 
+)
+where most_expensive=1
+ ```
 
 
 <!-- Pandas, PyMongo, чтение и запись данных, мат.статистика -->
@@ -179,7 +164,6 @@ plt.show()
 <img width="624" height="171" alt="image" src="https://github.com/user-attachments/assets/4a614c59-0fd1-4a23-80b3-da76267461d0" />
 
 Подробнее в ["Pandas, PyMongo, чтение и запись данных, мат.статистика, PowerBI"](https://github.com/sashinayub/ed-projects/tree/1fafda1685315d366234babb5c6d2f96fffdaf9b/Pandas%2C%20PyMongo%2C%20%D1%87%D1%82%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%2C%20%D0%BC%D0%B0%D1%82.%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0%2C%20PowerBI) 
-
 
 
 <!-- Python -->
@@ -258,42 +242,6 @@ letter = input('Какую букву ищем? ')
 count_letters(text, number, letter)
  ```
 Ссылка на папку с работами ["Python"](https://github.com/sashinayub/ed-projects/tree/47021c3ff6ed45bfe98d08142ad12bb21718d8b4/Python)
-
-<!-- SQL и базы данных -->
-## SQL и базы данных
-
-решения задач, приближенных к задачам реального бизнеса:
-• написание различных SQL-запросов (MS SQL, MySQL, PostgreSQL) для извлечения необходимых данных для аналитики:
-Select со всеми его возможностями…
-Объединение данных из различных таблиц, в т.ч. Join
-Применение оконных функций при количества…
-Построение таблицы продаж товаров
-Уровень опыта работы с Python включает знание основ синтаксиса, работу с переменными и типами данных, использование условных операторов и циклов. Также освоены функции, работа с коллекциями и базовые модули для обработки файлов и исключений. 
-1. Функции
-2. Возврат значений из функции return, алгоритмы с заданной точностью для расчёта
-3. Вложенные циклы
-4. Float, round, math
-5. Open a Pull Request
-
-* _Задача: для каждого пользователя нужно найти наименование и цену самого дорогого товара в его первой транзакции.Исходные данные:
-Таблица с покупками (df_orders): user_id, transaction_datetime, item_id, order_id).
-Табличка товаров (df_items): item_id, brand, name, price)._
- ```sh
-select user_id,name,price
-from
-(
-select user_id,order_id,transaction_datetime,price,name,item_id,number_bought,
-      row_number() OVER (partition by user_id order by price desc) as most_expensive
-from(
-select user_id,order_id,transaction_datetime, price,name, di.item_id,
-       dense_rank() OVER (PARTITION BY user_id order by transaction_datetime ) as number_bought
-from df_orders do
-left join df_items  di on di.item_id = do.item_id 
-) tt
-where number_bought=1 
-)
-where most_expensive=1
- ```
 
 
 <!-- Визуализация и аналитика с помощью BI-систем -->
