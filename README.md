@@ -60,15 +60,21 @@ _Ряд кейсов, содержащихся в данном разделе:_
 <!-- Диаграммы UML, ERD и другие диаграммы для описания ПО -->
 ## Диаграммы UML, ERD и другие диаграммы для описания ПО
 
-  При составлении диаграмм спользовались инструменты PlantUML, Miro, Draw.io, Figma. Кроме папки "Диаграммы UML, User Story, Use Case, ERD для описания ПО" диаграммы и описания содержатся в размещенных в основной папке _Тестовых заданиях_.
+  При составлении диаграмм спользовались инструменты PlantUML, Miro, Draw.io, Figma. Кроме папки "Диаграммы UML, User Story, Use Case, ERD для описания ПО" диаграммы и описания содержатся в _Тестовых заданиях_,размещенных в основной папке.
  - [x] Sequence Diagrams:
 <img width="1631" height="1022" alt="Sequence Diagram  Система обработки заказа" src="https://github.com/user-attachments/assets/b46a8615-1799-43b8-a8d0-624df39a5dd7" />
+
 
  - [x] ERD:
 <img width="749" height="449" alt="ERD  Система учета продаж drawio" src="https://github.com/user-attachments/assets/dcaba03c-327f-4dd3-bf5c-11df2cc2558e" />
 
+
  - [x] Use Case Diagram:
 <img width="1245" height="561" alt="Use Case Diagram  Бронирование тура" src="https://github.com/user-attachments/assets/a1537cec-5695-406a-9996-b4760c5b1140" />
+
+
+ - [x] контекстные диаграммы:
+<img width="2225" height="561" alt="Контекстная диаграмма  Бронирование отеля" src="https://github.com/user-attachments/assets/3515a668-926e-4a6b-adf6-21b8b6cd9817" />
 
 Больше диаграмм в ["Диаграммы UML, ERD и другие диаграммы для описания ПО"](https://github.com/sashinayub/ed-projects/tree/0d27e8cdc767bd4bf9a3fa59f749efb50de48b47/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20UML%2C%20ERD%20%D0%B8%20%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D0%B5%20%D0%B4%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%9F%D0%9E)
 
@@ -85,7 +91,7 @@ _Ряд кейсов, содержащихся в данном разделе:_
 
 * _Задача: для каждого пользователя нужно найти наименование и цену самого дорогого товара в его первой транзакции.Исходные данные:
 Таблица с покупками (df_orders): user_id, transaction_datetime, item_id, order_id).
-Табличка товаров (df_items): item_id, brand, name, price)._
+Таблица товаров (df_items): item_id, brand, name, price)._
  ```sh
 select user_id,name,price
 from
@@ -113,8 +119,7 @@ where most_expensive=1
 
 <img width="624" height="332" alt="image" src="https://github.com/user-attachments/assets/d35ffb64-7149-4f02-a4d9-b44cfaeb0def" />
 
-- [x] с исользованием **SQLAlchemy и psycopg2** из БД PostgreSQL загружены и сохранены в виде xlsx данные с аналитикой рейтинга фильмов
-<img width="624" height="556" alt="image" src="https://github.com/user-attachments/assets/134f9909-4fa8-422d-80ef-047e0903ff4f" />
+- [x] с использованием **SQLAlchemy и psycopg2** из БД PostgreSQL загружены и сохранены в виде xlsx данные с аналитикой рейтинга фильмов
 
 - [x] c применением Pymongo проведена работа **с коллекциями MongoDB**: чтение, подчсет количества доступных коллекций и документов, преобразование списка документов в Pandas DataFrame, сохранение в xlsx
 <img width="624" height="416" alt="image" src="https://github.com/user-attachments/assets/599bee9c-10b8-4a9d-95ea-e37b0d39676f" />
