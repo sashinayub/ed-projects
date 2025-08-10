@@ -255,7 +255,7 @@ count_letters(text, number, letter)
 
 
 
-Подробнее в ["Pandas, PyMongo, чтение и запись данных, мат.статистика, PowerBI"](https://github.com/sashinayub/ed-projects/tree/1fafda1685315d366234babb5c6d2f96fffdaf9b/Pandas%2C%20PyMongo%2C%20%D1%87%D1%82%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%2C%20%D0%BC%D0%B0%D1%82.%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0%2C%20PowerBI) 
+Подробнее в ["Визуализация и аналитика с помощью BI-систем"](https://github.com/sashinayub/ed-projects/tree/ee5016f3da4dfc6239271a971bcc27ec5bb31424/%D0%92%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B8%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0%20%D1%81%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E%20BI-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC) 
 
 
 <!-- Контакты -->
