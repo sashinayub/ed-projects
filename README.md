@@ -253,7 +253,7 @@ count_letters(text, number, letter)
 
 <img width="1550" height="773" alt="Интерактивный дашборд" src="https://github.com/user-attachments/assets/e8e4aca8-d94e-46f8-a0d6-d0cdfe98f086" />
 
-Подробнее в ["Визуализация и аналитика с помощью BI-систем"](https://github.com/sashinayub/ed-projects/tree/b54dc71b7da0c704a66aca35d7eb894cef2220c9/%D0%92%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B8%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0%20%D1%81%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E%20BI-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC) 
+Подробнее в ["Визуализация и аналитика с помощью BI-систем"](https://github.com/sashinayub/ed-projects/tree/2542396815aa47c2195b126041e471d110b39049/%D0%92%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B8%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0%20%D1%81%20%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C%D1%8E%20BI-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC)
 
 
 <!-- Контакты -->
