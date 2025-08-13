@@ -1,11 +1,6 @@
 
  
-  <h3 align="center">Портфолио</h3>
-
-  <p align="center">
-        <a href="https://github.com/othneildrew/Best-README-Template"><strong>Ссылка на резюме на HeadHunter</strong></a>
-    <br />
-   
+  <h1 align="center">Портфолио</h1>
 
 
 <!-- Оглавление -->
