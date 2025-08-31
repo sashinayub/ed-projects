@@ -1,3 +1,0 @@
-select * from skill_managers
-full join skill_managers_dup
-on skill_managers.manager_id=skill_managers_dup.manager_id	
