@@ -1,0 +1,10 @@
+--Напишите запрос, который выведет город с наибольшей суммарной выручкой по завершённым заказам. 
+--Если таких городов несколько, выберите тот, чьё название идёт первым по алфавиту.
+
+SELECT c.city
+FROM orders o
+JOIN customers c ON o.cust_id = c.cust_id
+WHERE o.status = 'completed'
+GROUP BY c.city
+ORDER BY SUM(o.total) DESC, c.city ASC
+LIMIT 1;
