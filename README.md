@@ -71,7 +71,7 @@ _Ряд кейсов, содержащихся в данном разделе:_
  - [x] контекстные диаграммы:
 <img width="2225" height="561" alt="Контекстная диаграмма  Бронирование отеля" src="https://github.com/user-attachments/assets/3515a668-926e-4a6b-adf6-21b8b6cd9817" />
 
-Больше диаграмм в ["Диаграммы UML, ERD и другие диаграммы для описания ПО"](https://github.com/sashinayub/ed-projects/tree/0d27e8cdc767bd4bf9a3fa59f749efb50de48b47/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20UML%2C%20ERD%20%D0%B8%20%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D0%B5%20%D0%B4%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%9F%D0%9E)
+Больше диаграмм в ["Диаграммы UML, ERD и другие диаграммы для описания ПО"](https://github.com/sashinayub/ed-projects/tree/dabf2e2dd76d75cdd5d95b70151d67304b9d2319/%D0%94%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20UML%2C%20ERD%20%D0%B8%20%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D0%B5%20%D0%B4%D0%B8%D0%B0%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%9F%D0%9E)
 
 <!-- SQL и базы данных -->
 ## SQL и базы данных
