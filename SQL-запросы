@@ -9,6 +9,23 @@ GROUP BY c.city
 ORDER BY SUM(o.total) DESC, c.city ASC
 LIMIT 1;
 
+--Найти пользователей, которые сделали хотя бы одну покупку в январе 2025 
+--и ни одной покупки в феврале 2025. Под покупкой считаем только заказы со статусом paid.
+--Вернуть один столбец user_id, отсортированный по возрастанию. Дубликаты не нужны.
+SELECT DISTINCT user_id
+FROM orders
+WHERE status = 'paid'
+  AND order_ts >= '2025-01-01 00:00:00'
+  AND order_ts < '2025-02-01 00:00:00'
+  AND user_id NOT IN (
+    SELECT user_id
+    FROM orders
+    WHERE status = 'paid'
+      AND order_ts >= '2025-02-01 00:00:00'
+      AND order_ts < '2025-03-01 00:00:00'
+  )
+ORDER BY user_id ASC;
+
 --Вывести количество заказов за 2021 год в категории «Одежда» и за 2022 год в категории «Обувь» 
 --(итоговый вид: 2 строки. Поля: yr, order_num)
 WITH t1 AS (
@@ -34,4 +51,4 @@ SELECT
     COUNT(DISTINCT order_id) AS order_num
 FROM t1
 WHERE cat_1 = 'Обувь' AND year = '2022'
-GROUP BY year
+GROUP BY year;
