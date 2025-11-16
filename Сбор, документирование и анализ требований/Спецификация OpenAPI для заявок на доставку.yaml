@@ -1,0 +1,257 @@
+openapi: 3.0.4
+info:
+  title: API для заявок на доставку
+  version: 0.1.0
+servers:
+  - url: http://localhost:8080/api/v1
+    description: Dev сервер
+    
+tags:
+  - name: DeliveryRequests
+    description: Все методы для работы с заявками на доставку
+
+paths:
+  /delivery_requests:
+    get:
+      summary: Получить список всех заявок
+      description: Возвращает список всех заявок на доставку в системе.
+      operationId: getDeliveryRequests
+      tags:
+        - DeliveryRequests
+      responses:
+        '200':
+          description: Список заявок
+          content:
+            application/json;charset=UTF-8:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/DeliveryRequest"
+                
+    post:
+      summary: Создать новую заявку
+      description: Добавляет новую заявку на доставку в систему.
+      operationId: createDeliveryRequest
+      tags:
+        - DeliveryRequests
+      requestBody:
+        required: true
+        content:
+          application/json;charset=UTF-8:
+            schema:
+              $ref: "#/components/schemas/DeliveryRequest"
+      responses:
+        '201':
+          description: Заявка успешно создана
+          content:
+            application/json;charset=UTF-8:
+              schema:
+                $ref: "#/components/schemas/DeliveryRequest"
+        '400':
+          description: Неверные входные данные
+          content:
+            application/json;charset=UTF-8:
+              schema:
+                $ref: "#/components/schemas/Error"
+
+  /delivery_requests/{id}:
+    get:
+      summary: Получить заявку по id
+      description: Возвращает информацию о конкретной заявке по её уникальному идентификатору.
+      operationId: getDeliveryRequestById
+      tags:
+        - DeliveryRequests
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: ID заявки
+          schema:
+            type: string
+            example: "123e4567-e89b-12d3-a456-426614174000"
+      responses:
+        '200':
+          description: Информация о заявке
+          content:
+            application/json;charset=UTF-8:
+              schema:
+                $ref: "#/components/schemas/DeliveryRequest"
+        '404':
+          description: Заявка не найдена
+          content:
+            application/json;charset=UTF-8:
+              schema:
+                $ref: "#/components/schemas/Error"
+
+    put:
+      summary: Обновить заявку по id
+      description: Обновляет информацию о существующей заявке.
+      operationId: updateDeliveryRequest
+      tags:
+        - DeliveryRequests
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: ID заявки для обновления
+          schema:
+            type: string
+            example: "123e4567-e89b-12d3-a456-426614174000"
+      requestBody:
+        required: true
+        content:
+          application/json;charset=UTF-8:
+            schema:
+              $ref: "#/components/schemas/DeliveryRequest"
+      responses:
+        '200':
+          description: Информация обновлена
+          content:
+            application/json;charset=UTF-8:
+              schema:
+                $ref: "#/components/schemas/DeliveryRequest"
+        '400':
+          description: Неверные данные
+          content:
+            application/json;charset=UTF-8:
+              schema:
+                $ref: "#/components/schemas/Error"
+        '404':
+          description: Заявка не найдена
+          content:
+            application/json;charset=UTF-8:
+              schema:
+                $ref: "#/components/schemas/Error"
+
+    delete:
+      summary: Удалить заявку по id
+      description: Удаляет заявку из системы.
+      operationId: deleteDeliveryRequest
+      tags:
+        - DeliveryRequests
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: ID заявки для удаления
+          schema:
+            type: string
+            example: "123e4567-e89b-12d3-a456-426614174000"
+      responses:
+        '204':
+          description: Успешное удаление
+        '404':
+          description: Заявка не найдена
+          content:
+            application/json;charset=UTF-8:
+              schema:
+                $ref: "#/components/schemas/Error"
+
+  /delivery_requests/status/{status}:
+    get:
+      summary: Получить заявки по статусу
+      description: Возвращает список заявок по их текущему статусу.
+      operationId: getRequestsByStatus
+      tags:
+        - DeliveryRequests
+      parameters:
+        - name: status
+          in: path
+          required: true
+          description: Статус заявки (например, pending, in_transit, delivered, canceled)
+          schema:
+            type: string
+            enum:
+              - pending
+              - in_transit
+              - delivered
+              - canceled
+      responses:
+        '200':
+          description: Список заявок
+          content:
+            application/json;charset=UTF-8:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/DeliveryRequest"
+
+components:
+  schemas:
+    DeliveryRequest:
+      type: object
+      required:
+        - id
+        - senderName
+        - recipientName
+        - pickupAddress
+        - deliveryAddress
+        - status
+        - createdAt
+      properties:
+        id:
+          type: string
+          format: uuid
+          example: "123e4567-e89b-12d3-a456-426614174000"
+        senderName:
+          type: string
+          description: Имя отправителя
+          example: Иван Иванов
+        recipientName:
+          type: string
+          description: Имя получателя
+          example: Мария Петрова
+        pickupAddress:
+          type: string
+          description: Адрес забора товара
+          example: "г. Москва, ул. Ленина, д. 10"
+        deliveryAddress:
+          type: string
+          description: Адрес доставки
+          example: "г. Санкт-Петербург, наб. Реки Мойки, д. 5"
+        status:
+          type: string
+          description: Текущий статус заявки
+          enum:
+            - pending
+            - in_transit
+            - delivered
+            - canceled
+          example: pending
+        createdAt:
+          type: string
+          format: date-time
+          description: Время создания заявки
+          example: "2023-10-13T12:34:56+03:00"
+
+    Error:
+      type: object
+      required:
+        - title
+        - detail
+        - request
+        - time
+        - errorTraceId
+      properties:
+        title:
+          type: string
+          description: Краткое описание ошибки
+          example: "Entity not found"
+        detail:
+          type: string
+          description: Детальное описание ошибки
+          example: "Заявка с указанным ID не найдена"
+        request:
+          type: string
+          description: HTTP-запрос
+          example: "GET /delivery-requests/123"
+        time:
+          type: string
+          format: date-time
+          description: Время возникновения ошибки
+          example: "2023-10-13T12:35:00+03:00"
+        errorTraceId:
+          type: string
+          description: Уникальный идентификатор ошибки
+          example: "e3a1f7d2-974b-4b28-a7c2-9e0babc12345"
+
